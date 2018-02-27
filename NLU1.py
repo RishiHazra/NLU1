@@ -422,10 +422,4 @@ def generate_sentence(word1,N,p):
 word1='<s>'
 generate_sentence(word1,10,7)
 
-print("\nbrown corpus")
-print("perplexity_brown for unigram= ",perplexity(1)) 
-print("perplexity_brown for bigram = ", perplexity(2))     
-print("perplexity_brown for trigram= ",perplexity(3))
-
-
 """#######-------------------------END-------------------##########"""
